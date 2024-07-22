@@ -18,10 +18,6 @@ venv.lib/
 pytest_cache/
 *.pyo
 
-# Docker
-*.dockerfile
-Dockerfile
-docker-compose.yml
 
 # VS Code
 .vscode/
