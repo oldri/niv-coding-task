@@ -101,15 +101,21 @@ If you prefer to run the frontend locally without Docker, follow these steps:
 
 Navigate to the frontend directory:
 
+```sh
 cd frontend
+```
 
 Install dependencies:
 
+```sh
 npm install
+```
 
 Start the development server:
 
+```sh
 npx serve -s public
+```
 
 The frontend will be available at http://localhost:5000.
 
@@ -123,20 +129,28 @@ If you prefer to run the backend locally without Docker, follow these steps:
 
 Navigate to the backend directory:
 
+```sh
 cd backend
+```
 
 Create a virtual environment and activate it:
 
+```sh
 python -m venv env
 source env/bin/activate # On Windows use `env\Scripts\activate`
+```
 
 ### Install dependencies:
 
+```sh
 pip install -r app/requirements.txt
+```
 
 Run the FastAPI server:
 
+```sh
 uvicorn app.main:app --host 0.0.0.0 --port 8000
+```
 
 The backend will be available at http://localhost:8000.
 
@@ -145,15 +159,19 @@ The backend will be available at http://localhost:8000.
 Frontend Tests
 Navigate to the frontend directory and run the tests:
 
+```sh
 cd frontend
 npm test
+```
 
 ### Backend Tests
 
 Navigate to the backend directory and run the tests:
 
+```sh
 cd backend
 pytest
+```
 
 ### Contributing
 
