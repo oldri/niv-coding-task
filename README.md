@@ -87,7 +87,10 @@ cd encodec-app
 ### 2. Build and Run the Containers
 
 Use Docker Compose to build and start both the frontend and backend services:
+
+```sh
 docker-compose up --build
+```
 
 This command will build the Docker images for both the backend and frontend services and start the containers. The frontend will be available at http://localhost:5000, and the backend will be available at http://localhost:8000.
 
